@@ -247,6 +247,12 @@ input[type=radio], input[type=checkbox] {
   color: #fff;
 }
 
+.form__btn:active {
+  outline: 0;
+  background-color: #FFF;
+  color: #00BCD4;
+}
+
 .textarea {
   box-sizing: border-box;
   float: right;
