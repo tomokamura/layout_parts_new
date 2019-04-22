@@ -32,26 +32,26 @@
           <!-- 新たにタグは追加しなくてもできます。 -->
           <div class="q8 q8--btn">
             <p class="q8__title">ー small ー</p>
-            <div>common</div>
-            <div>error</div>
-            <div>disabled</div>
-            <div>shadow</div>
+            <div class="btn small white common">common</div>
+            <div class="btn small error">error</div>
+            <div class="btn small disabled">disabled</div>
+            <div class="btn small shadow">shadow</div>
           </div>
 
           <div class="q8 q8--btn">
             <p class="q8__title">ー middle ー</p>
-            <div>common</div>
-            <div>error</div>
-            <div>disabled</div>
-            <div>shadow</div>
+            <div class="btn middle common">common</div>
+            <div class="btn middle error">error</div>
+            <div class="btn middle disabled">disabled</div>
+            <div class="btn middle shadow">shadow</div>
           </div>
 
           <div class="q8 q8--btn">
             <p class="q8__title">ー large ー</p>
-            <div>common</div>
-            <div>error</div>
-            <div>disabled</div>
-            <div>shadow</div>
+            <div class="btn large common">common</div>
+            <div class="btn large error">error</div>
+            <div class="btn large disabled">disabled</div>
+            <div class="btn large shadow">shadow</div>
           </div>
           <!-- 回答はここに書いてね -->
         </div>
@@ -99,11 +99,62 @@
           <!-- 回答はここに書いてね -->
           <!-- すでについてるクラスにはstyleを指定しない。styleを付ける場合は自分で新たにクラスをつけること -->
           <div class="q8">
-            
+            <div class="q8__form">
+              <div class="form__title">
+                Form Exercise
+              </div>
+              <form action="#" method="get">
+                <ul class="form__left">
+                  <li>
+                    <p class="list__title">名前<span class="required">*</span></p>
+                    <input id="name" type="text" name="yourname" class="form__input">
+                  </li>
+                  <li>
+                    <p class="list__title">性別</p>
+                    <div class="form__input gender">
+                      <input type="radio" name="radio" class="radio__input" id="radio__01">
+                      <label for="radio__01">男性</label>
+                      <input type="radio" name="radio" class="radio__input" id="radio__02">
+                      <label for="radio__02">女性</label>
+                    </div>
+                  </li>
+                  <li>
+                    <p class="list__title">出身</p>
+                    <div class="from__outer">
+                      <select name="pull-down" class="from">
+                        <option value="tokyo">東京</option>
+                        <option value="saitama">埼玉</option>
+                        <option value="chiba">千葉</option>
+                        <option value="kanagawa">神奈川</option>
+                      </select>
+                    </div>
+                  </li>
+                  <li>
+                    <p class="list__title">Eメール<span class="required">*</span></p>
+                    <input id="email" type="text" name="mail" placeholder="ex) hoge@gmail.com" class="form__input">
+                  </li>
+                  <li>
+                    <p class="list__title">電話番号</p>
+                    <input id="tel" type="text" name="tel" placeholder="ex) 08012345678" class="form__input">
+                  </li>
+                  <li>
+                    <div class="checkbox">
+                    <label>
+                    <input type="checkbox" name="checkbox" class="checkbox__input">
+                    <span class="checkbox__parts">20歳以上です</span>
+                    </label>
+                    </div>
+                  </li>
+                  <input type="submit" value="送信" class="form__btn">
+                </ul>
+                <textarea class="textarea form__input" rows="10" id="message" placeholder="何かあれば入力してください。" name="comment"></textarea>
+              </form>
+            </div>
+
           </div>
-          <!-- 回答はここに書いてね -->
+              <!-- 回答はここに書いてね -->
+          </div>
         </div>
       </div>
-    </div>
-  </body>
-</html>
+    </body>
+  </html>
