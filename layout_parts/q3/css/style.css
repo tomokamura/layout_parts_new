@@ -6,7 +6,8 @@
   width: 100%;
 }
 
-.kcal_table th,td {
+.kcal_table th,
+.kcal_table td {
   border: 1px solid #dedede;
   padding: 10px;
 }
