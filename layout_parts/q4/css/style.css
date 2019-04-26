@@ -1,15 +1,19 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
+
+.q4__frame {
+  padding: 20px;
+}
+
 .bar {
   display: table;
-  padding: 20px;
   box-sizing: border-box;
   width: 100%;
 }
 
 .bar:first-child {
-  padding-bottom: 0;
+  margin-bottom: 20px;
 }
 
 .cell {
