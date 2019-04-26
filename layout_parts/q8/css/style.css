@@ -196,6 +196,7 @@ input[type=radio], input[type=checkbox] {
   font-size: 12px;
   border-style: none;
   border-radius: 3px;
+  outline: 0;
 }
 
 .checkbox {
